@@ -1,0 +1,45 @@
+.minicard {
+  padding-top: 110px;
+}
+
+.minicard-title {
+  text-align: center;
+}
+
+.minicontact-cards {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.minicontact-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--c4);
+  width: 225px;
+  height: 225px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.minicontact-card h4 {
+  color: var(--c3);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.minicontact-card p {
+  color: var(--c3);
+  font-size: 16px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}

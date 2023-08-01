@@ -1,0 +1,34 @@
+.wrapper {
+  background-color: red;
+  height: 550px;
+  background-image: url("../../assets//images/home-banner-shadow.png"),
+    url("https://images.pexels.com/photos/4173239/pexels-photo-4173239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+}
+
+.wrapper-card {
+  height: 550px;
+  display: flex;
+  align-items: center;
+}
+
+.home-subtitle {
+  color: var(--c5);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.88px;
+  text-transform: uppercase;
+}
+
+.home-title {
+  color: var(--primary, #1f2b6c);
+  font-family: var(--Yeseva);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}

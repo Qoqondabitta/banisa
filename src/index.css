@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&family=Yeseva+One&display=swap");
+
+/* Global Styles  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+:root {
+  --c1: #fcfefe;
+  --c2: #000000;
+  --c3: #1f2b6c;
+  --c4: #bfd2f8;
+  --c5: #159eec;
+  --WorkSans: "Work Sans", sans-serif;
+  --Yeseva: "Yeseva One", cursive;
+}
+
+.container {
+  max-width: 1336px;
+  margin: 0 auto;
+  padding: 0 150px;
+}
+
+/* Logo Styles  */
+
+.logo-med {
+  color: var(--c3);
+  font-family: var(--Yeseva);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.logo-dical {
+  color: var(--c1);
+  font-family: var(--Yeseva);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.logo-blue {
+  color: var(--c5);
+  font-family: var(--Yeseva);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/* Global Button styles */
+
+.btn-blue {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  width: 173px;
+  height: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 18px;
+  font-family: var(--WorkSans);
+  color: var(--c3);
+  border-radius: 100px;
+  background-color: var(--c4);
+  transition: all 0s linear;
+}
+
+.btn-blue:hover {
+  opacity: 0.9;
+}
+
+.btn-blue:active {
+  transform: scale(0.98);
+}
+
+/* -------------------------------------- */
+
+.btn-transparent {
+  color: var(--c5);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-transparent:hover {
+  opacity: 0.9;
+}
+
+.btn-transparent:active {
+  transform: scale(0.98);
+}
+
+/* Global SubTitle Style */
+
+.global-subtitle {
+  color: var(--c5);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.88px;
+  text-transform: uppercase;
+}
+
+.global-title {
+  color: var(--c3);
+  font-family: var(--Yeseva);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.global-description {
+  color: var(--c2);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.4px;
+}
+
+/* Navbar responsive styles  */
+
+.nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  /* display: none; */
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1050px) {
+  .container {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .logo {
+    display: none;
+  }
+}
