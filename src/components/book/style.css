@@ -1,0 +1,109 @@
+.booking {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 94px;
+}
+.leftBook {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+}
+.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.texts h2 {
+  color: var(--secondary, #159eec);
+  font-family: Yeseva One;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.texts p {
+  color: var(--black, #212124);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.rightBook {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.horizontal {
+  display: flex;
+  gap: 1px;
+}
+.demographics {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.nameMail {
+  display: flex;
+  gap: 1px;
+}
+.nameMail .div {
+  border: none;
+  outline: none;
+  width: 243px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 5px 0px 0px 0px;
+  background: var(--primary, #1f2b6c);
+  padding: 14px 20px;
+}
+
+.nameMail div select {
+  outline: none;
+  border: none;
+  background: var(--primary, #1f2b6c);
+}
+#email {
+  border-radius: 0px 5px 0px 0px;
+  width: 242px;
+}
+.message {
+  padding: 14px 20px;
+  width: 486px;
+  height: 235px;
+  flex-shrink: 0;
+  background: var(--primary, #1f2b6c);
+}
+
+.message input {
+  outline: none;
+  border: none;
+  background: var(--primary, #1f2b6c);
+}
+.submitButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 486px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 5px 5px;
+  background: var(--accent, #bfd2f8);
+}
+.submitButton button {
+  border: none;
+  background-color: transparent;
+  color: var(--primary, #1f2b6c);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}

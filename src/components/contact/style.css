@@ -2,6 +2,7 @@
   background-image: url("../../assets/images/Rectangle\ 3.png");
   height: 250px;
 }
+
 .aloqaWrap {
   width: 100%;
   height: 250px;
@@ -11,16 +12,19 @@
   justify-content: flex-start;
   /* background-image: url("../../assets/images/Rectangle\ 3.png"); */
 }
+
 .texts {
   display: flex;
   flex-direction: column;
 }
+
 .texts p {
     color: #1f2b6c;
     font-size: 18px;
     font-weight: 400;
     line-height: 140%;
 }
+
 .texts h2 {
   font-family: var(--Yeseva);
   color: #1f2b6c;
@@ -31,4 +35,9 @@
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.438);
+}
+
+.maps {
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
