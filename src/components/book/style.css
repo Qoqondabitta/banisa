@@ -1,8 +1,28 @@
+.meeting {
+  background-image: url(../../assets/images/Rectangle\ 33.png);
+  background-repeat: no-repeat;
+  height: 573px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.bookWrap {
+  display: flex;
+  align-items: center;
+  height: 573px;
+}
 .booking {
   width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 94px;
+}
+
+.backgroundBook {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.781);
 }
 .leftBook {
   display: flex;
@@ -11,9 +31,9 @@
   justify-content: flex-start;
 }
 .texts {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 .texts h2 {
   color: var(--secondary, #159eec);
@@ -43,11 +63,52 @@
   display: flex;
   gap: 1px;
 }
+/* .threeHorizontal{
+  display: flex;
+  gap: 1px;
+} */
 .demographics {
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  column-gap: 1px;
 }
+input {
+  color: var(--white, #fcfefe);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+input::placeholder {
+  color: var(--white, #fcfefe);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+select {
+  color: var(--white, #fcfefe);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+select option {
+  border-radius: 5px;
+  width: 100%;
+  background: var(--accent, #bfd2f8);
+  color: var(--black, #212124);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
 .nameMail {
   display: flex;
   gap: 1px;
@@ -62,8 +123,26 @@
   background: var(--primary, #1f2b6c);
   padding: 14px 20px;
 }
+.common {
+  border-bottom: 1px solid var(--accent, #bfd2f8);
+}
+#turn input {
+  flex-shrink: 0;
+  background: var(--primary, #1f2b6c);
+  padding: 14px 20px;
+  height: 50px;
+  width: 161px;
+}
+#turns input {
+  flex-shrink: 0;
+  background: var(--primary, #1f2b6c);
+  padding: 14px 20px;
+  height: 50px;
+  width: 162px;
+}
 
 .nameMail div select {
+  width: 100%;
   outline: none;
   border: none;
   background: var(--primary, #1f2b6c);
@@ -71,6 +150,20 @@
 #email {
   border-radius: 0px 5px 0px 0px;
   width: 242px;
+}
+#doctor {
+  padding: 14px 20px;
+  background: var(--primary, #1f2b6c);
+  width: 100%;
+  border-top: 1px solid var(--accent, #bfd2f8);
+  border-bottom: 1px solid var(--accent, #bfd2f8);
+  border-radius: 0px;
+}
+#doctor select {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: var(--primary, #1f2b6c);
 }
 .message {
   padding: 14px 20px;
