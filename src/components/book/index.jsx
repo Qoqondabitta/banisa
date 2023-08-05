@@ -1,12 +1,7 @@
 import React from "react";
 import "./style.css";
-import {Select}
 
 const Book = () => {
-  const { Option } = Select;
-  function handleChange(value) {
-    console.log(`Selected ${value}`);
-  }
   return (
     <section className="meeting">
       <div className="backgroundBook">
@@ -28,15 +23,14 @@ const Book = () => {
                 <div className="demographics">
                   <div className="nameMail">
                     <div className="div name">
-                      <Select
-                        defaultValue="option1"
-                        style={{ width: 120 }}
-                        onChange={handleChange}
-                      >
-                        <Option value="option1">Option 1</Option>
-                        <Option value="option2">Option 2</Option>
-                        <Option value="option3">Option 3</Option>
-                      </Select>
+                      <select>
+                        <option value="shif">Shifoxonalar</option>
+                        <option value="tashmi">Toshmi</option>
+                        <option value="sampi">Sampi</option>
+                        <option value="juk">Star Med</option>
+                        <option value="ank">Ankologicheskiy</option>
+                        <option value="ank">Jukovskiy</option>
+                      </select>
                     </div>
                     <div id="email" className="div">
                       <select>

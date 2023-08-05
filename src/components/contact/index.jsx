@@ -3,6 +3,7 @@ import "./style.css";
 import { useNavigate } from "react-router-dom";
 import Touch from "../touch";
 import Book from "../book";
+import Doctors from "../doctor";
 
 const Contact = () => {
   const navigate = useNavigate();
@@ -41,6 +42,7 @@ const Contact = () => {
       </section>
       <Touch />
       <Book />
+      <Doctors />
     </div>
   );
 };

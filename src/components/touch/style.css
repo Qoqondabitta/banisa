@@ -41,7 +41,6 @@
 }
 .nameMail .div {
   border: none;
-  outline: none;
   width: 243px;
   height: 50px;
   flex-shrink: 0;

@@ -1,0 +1,68 @@
+.modal {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.modalka {
+  background: var(--accent, #bfd2f8);
+  padding: 15px;
+  border-radius: 5px;
+}
+.cell {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cell h2 {
+  color: var(--primary, #1f2b6c);
+  font-family: Yeseva One;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.modalDetails {
+  display: flex;
+  align-items: center;
+}
+.question {
+  padding: 10px 40px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#gapModal{
+  gap: 20px;
+}
+.question p {
+  color: var(--primary, #1f2b6c);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+.question h4 {
+  letter-spacing: 0.2rem;
+  color: var(--primary, #1f2b6c);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.cell button {
+  width: 40%;
+  color: var(--accent, #bfd2f8);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  padding: 10px;
+  border-radius: 5px;
+  background: var(--primary, #1f2b6c);
+  border: none;
+}
